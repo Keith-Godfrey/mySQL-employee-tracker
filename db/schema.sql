@@ -1,8 +1,8 @@
--- Create a business database
-DROP DATABASE IF EXISTS business;
-CREATE DATABASE business;
+-- Create a employees database
+DROP DATABASE IF EXISTS employees_db;
+CREATE DATABASE employees_db;
 
-\c business;
+\c employees_db;
 
 -- department table
 CREATE TABLE department (
